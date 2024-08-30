@@ -2,15 +2,15 @@ version: 2
 updates:
   - package-ecosystem: "gomod"
     open-pull-requests-limit: 9999
-    directory: "/bar"
+    # directory: "/bar"
     schedule:
       interval: "daily"
-#    allow:
-#      - dependency-type: indirect
-  - package-ecosystem: "gomod"
-    open-pull-requests-limit: 9999
-    directory: "/foo"
-    schedule:
-      interval: "daily"
-#    allow:
-#      - dependency-type: indirect
+# #    allow:
+# #      - dependency-type: indirect
+#   - package-ecosystem: "gomod"
+#     open-pull-requests-limit: 9999
+#     directory: "/foo"
+#     schedule:
+#       interval: "daily"
+# #    allow:
+# #      - dependency-type: indirect
