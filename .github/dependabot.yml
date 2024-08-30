@@ -3,6 +3,7 @@ updates:
   - package-ecosystem: "gomod"
     open-pull-requests-limit: 9999
     # directory: "/bar"
+    directory: "/"
     schedule:
       interval: "daily"
 # #    allow:
